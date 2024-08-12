@@ -1,0 +1,51 @@
+body {
+  background-color: #000; /* Just Black */
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  z-index: 100;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.a {
+  top: 200px;
+}
+
+.b {
+  top: 800px;
+}
+
+.line {
+  width: 2px;
+  height: 3000px;
+  position: absolute;
+  left: 600px;
+  top: 0;
+  background-color: #777;
+}
+
+  
